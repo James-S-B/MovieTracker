@@ -1,0 +1,35 @@
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    max-width: var(--container-width);
+    padding: var(--spacing-lg);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    width: 101%;
+    height: 101%;
+}
+
+.card {
+    background-color: lavender;
+    border: 1px;
+    border-style: solid;
+    margin-top: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

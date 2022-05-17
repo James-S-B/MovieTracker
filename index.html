@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Diary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="navbar">
+
+            <h1>library</h1>
+            <nav>
+                <div class="lds-dual-ring" id="loadingRing"></div>
+                <div class="logged-out active" id="loggedOut">
+                    <button class="btn" id="logInBtn">Log in</button>
+                </div>
+
+            </nav>
+        </div>
+
+        <fieldset>
+            <legend>Book</legend>
+            <form action="#" method="get" id="createbook">
+                <div>
+                    <label for="user_book">Book:</label>
+                    <input type="book" id="user_book" name="user_book" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="book_author">Author:</label>
+                    <input type="author" id="book_author" name="book_author" required>
+                </div>
+                <br>
+
+                <div> <label for="pages">Pages:</label>
+                    <input type="number" id="pages" name="pages" required>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <label for="user_read">Read</label>
+                        <input type="checkbox" id="user_read" name="read">
+                    </div>
+                    <br>
+                    <div>
+                        <button type="submit" id="submit">Add</button>
+                    </div>
+
+                </div>
+            </form>
+        </fieldset>
+
+        <div id="items" class="container">
+
+            <div class="card hidden">"<a class="box-title">Title</a>" by
+                <d class="box-author">Author</d> <i class="box-pages">3 pages</i>. Read: <input class="box-read" type="checkbox" class="toggle"><button class="box-delete" type="button">x</button></div>
+        </div>
+
+    </body>
+
+    </html>
+
+
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
